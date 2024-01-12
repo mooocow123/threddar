@@ -1,5 +1,5 @@
 import threading
-from rethread import *
+from threddar.rethread import *
 
 # The class for a threddar instance
 class Threddar(list[threading.Thread, Thread]):
